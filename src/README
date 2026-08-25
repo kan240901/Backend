@@ -1,0 +1,16 @@
+app.js -- server initiation, middlewares,routes/apis calling
+server.js -- server start
+
+packages
+bcrypt js ---hashing
+jsonwebtoken - for creating jsonwebtoken
+cookie-parser -- setting token in cookie and reading token from cookie
+
+tokenBlacklisting - remove token from cookie additionally adding it to the blacklist at server side
+
+
+
+
+
+
+further improvements - do token blacklisting by redis for now doing it by mongo
